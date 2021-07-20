@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="544" height="657" viewBox="0 0 544 657">
+  <g id="Groupe_64" data-name="Groupe 64" transform="translate(-688 -2580)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="544" height="652" transform="translate(688 2580)" fill="#4e009b"/>
+    <text id="_5_Mois_d_aventures_au_sein_de_GALASSIA" data-name="5 
+Mois
+d&apos;aventures au sein de GALASSIA" transform="translate(774 2836)" fill="#fff" font-size="100" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="157.997" y="99">5 </tspan><tspan x="75.014" y="221">Mois</tspan><tspan font-size="40"><tspan x="42.387" y="284">d&apos;aventures au </tspan><tspan x="14.027" y="334">sein de GALASSIA</tspan></tspan></text>
+    <g id="calendar-check" transform="translate(877 2635)">
+      <path id="Tracé_39" data-name="Tracé 39" d="M61.054,8.523a5.188,5.188,0,0,1,0,7.345L29.929,46.994a5.187,5.187,0,0,1-7.345,0L7.021,31.431a5.194,5.194,0,1,1,7.346-7.345l11.89,11.9L53.708,8.523a5.187,5.187,0,0,1,7.346,0Z" transform="translate(51.557 65.617)" fill="#fff"/>
+      <path id="Tracé_40" data-name="Tracé 40" d="M36.313,0A5.188,5.188,0,0,1,41.5,5.188v5.188h83V5.188a5.188,5.188,0,0,1,10.375,0v5.188H145.25A20.75,20.75,0,0,1,166,31.125V145.25A20.75,20.75,0,0,1,145.25,166H20.75A20.75,20.75,0,0,1,0,145.25V31.125a20.75,20.75,0,0,1,20.75-20.75H31.125V5.188A5.187,5.187,0,0,1,36.313,0ZM10.375,41.5V145.25A10.375,10.375,0,0,0,20.75,155.625h124.5a10.375,10.375,0,0,0,10.375-10.375V41.5Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
