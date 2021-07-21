@@ -1,0 +1,147 @@
+body{
+    font-family: "century gothic";
+    font-size: 1em;
+}
+        /*début du HEADER*/
+header{
+    background-image: url("Image1.svg");
+    width:1920px;
+    height: 1080px;
+}
+header h1{
+    color:white;
+    margin-left: 50%;
+}
+.logo{
+    padding-top: 10%;
+    padding-left: 1%;
+    }
+.experience{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border: 0;
+    padding: 20px 20px;
+    margin-left: 40%;
+    box-shadow: 8px 8px 0px rgba(190, 190, 190, 0.623);
+    position: relative;
+    top:48%;
+}
+.setting{
+    width: 3%;
+    color:rgba(245, 245, 245, 0.76);
+    position: relative;
+    top:-20em; left:52em;
+}
+.menu{
+    width: 3%;
+    color:rgba(245, 245, 245, 0.76);
+    position: relative;
+    top:-20em; left:42em;
+}
+        /*fin du Header*/
+hr{
+    width:10%;
+    color:rgba(140,140,140,255);
+    height: 4px;
+    background-color: rgba(140,140,140,255);
+    border: rgba(140,140,140,255);
+}
+h2{
+    color: rgba(7,182,162,255);
+    text-align: center;
+        /*section 1*/
+}
+.section1{
+    text-align: center;
+    margin-top: 10%;
+}
+        /*section 2*/
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+.section2 p{
+    width: 80%;
+    margin: auto
+}
+.section2 h2{
+    margin-left: 50%;
+}
+.section2 hr{
+    margin-left:70%;
+    margin-bottom: 3%;
+}
+        /*section3*/
+span{
+    color:grey;
+}
+.section3 p{
+    width: 90%;
+    margin: auto;
+}
+.section3 hr{
+    margin-bottom: 2%;
+}
+        /*section 4*/
+.section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+        /*les 3 blocs*/
+    .bloc1{
+        background-color: rgba(82,191,184,255);
+        margin-right: 3%;
+        width:20%;
+        height:40%;
+        padding: 3% 3% 0% 3%;
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+    .bloc2{
+        background-color:rgba(77,0,154,255);
+        margin-right: 3%;
+        width: 20%;
+        height: 40%;
+        padding: 3% 3% 2% 3%;
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+    .bloc3{
+        background-color:rgba(155,0,102,255);
+        width: 20%;
+        height: 40%;
+        padding: 3% 3% 0.5% 3%;
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+    .bloc{
+        line-height: 1%;
+        font-size: 3em;
+    }
+        /*section 5*/
+.robot{
+    border-radius: 0 5% 0 5%;
+    width: 80%;
+    margin-bottom: 5%;
+}
+        /*section 6*/
+.section6{
+    font-weight:lighter;
+}
+.liste{
+    display: flex;
+    flex-direction: row;
+}
+.actv1{
+    list-style-type: none;
+}
+.actv2{
+    list-style-type: none;
+    
+}
