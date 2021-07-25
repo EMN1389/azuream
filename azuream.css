@@ -1,38 +1,58 @@
+/*feuille de style CSS*/
+
+/*variable*/
+:root{
+    --white:#ffffff;
+    --black:
+
+}
+
 body{
     font-family: "century gothic";
     font-size: 1em;
+    margin: 0;
 }
         /*début du HEADER*/
+
 header{
     background-image: url("Image1.svg");
-    width:1920px;
-    height: 1080px;
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
 }
+
+        /*titre Welcome*/
 header h1{
-    color:white;
+    color:var(--white);
     margin-left: 50%;
+    margin-top:12%;
+    font-size: 70px;
+    font-weight: lighter;
 }
-.logo{
+        /*logo*/
+header img{
     padding-top: 10%;
-    padding-left: 1%;
-    }
-.experience{
-    text-decoration: none;
-    background-color: black;
-    color:white;
-    border: 0;
-    padding: 20px 20px;
-    margin-left: 40%;
-    box-shadow: 8px 8px 0px rgba(190, 190, 190, 0.623);
-    position: relative;
-    top:48%;
+    /*il manque le décalage du logo sur la gauche*/
 }
+        /*bouton "débuter l'expérience"*/ 
+header a{
+    text-decoration: none;
+    background-color: black ;
+    color: var(--white);
+    border: 0;
+    padding: 35px 100px;
+    box-shadow: 8px 8px 0px rgba(190, 190, 190, 0.623);
+}
+        /*bouton setting*/
 .setting{
     width: 3%;
     color:rgba(245, 245, 245, 0.76);
     position: relative;
     top:-20em; left:52em;
 }
+        /*bouton burger pour le menu*/
 .menu{
     width: 3%;
     color:rgba(245, 245, 245, 0.76);
@@ -40,6 +60,8 @@ header h1{
     top:-20em; left:42em;
 }
         /*fin du Header*/
+
+        /*barre*/
 hr{
     width:10%;
     color:rgba(140,140,140,255);
@@ -47,14 +69,16 @@ hr{
     background-color: rgba(140,140,140,255);
     border: rgba(140,140,140,255);
 }
+        /*titres du main*/
 h2{
     color: rgba(7,182,162,255);
     text-align: center;
+    font-size: 2rem;
+
         /*section 1*/
 }
 .section1{
     text-align: center;
-    margin-top: 10%;
 }
         /*section 2*/
 .section2{
@@ -119,10 +143,11 @@ span{
         padding: 3% 3% 0.5% 3%;
         font-size: 2em;
         margin-bottom: 5%;
+        
     }
     .bloc{
         line-height: 1%;
-        font-size: 3em;
+        font-size: 2em;
     }
         /*section 5*/
 .robot{
@@ -137,11 +162,61 @@ span{
 .liste{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 .actv1{
     list-style-type: none;
+    margin-right: 30%;
+    font-size: 1.5em;
+    color:rgba(90, 89, 89, 0.979);
 }
 .actv2{
     list-style-type: none;
-    
+    font-size: 1.5em;
+    color:rgba(90, 89, 89, 0.979);
+}
+.section7{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+        /*section 8*/
+.section8{
+    background: linear-gradient(to right, #c2004e, #1adde0);
+    border-radius:0 65px 0 0 ;
+    width: 1807px;
+    height: 475px;
+    position: relative;
+}
+        /*bouton "Vivre l'avanture"*/
+.aventure{
+    text-decoration: none;
+    background-color: rgba(241, 238, 238, 0.123);
+    color:white;
+    border: 2px solid;
+    border-color:white;
+    padding: 30px 70px 30px 70px;
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: -60%;
+    position: absolute;
+    bottom:  30%;
+}
+        /*footer*/
+footer{
+    background-color:rgba(62,62,62,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:rgba(190,190,190,255);
+    position: relative;
+    padding-right: 10%;
+}
+.réseaux{
+    position: absolute;
+    bottom:0;
+}
+.adresse{
+    margin-left: 10%;
 }
