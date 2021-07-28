@@ -1,0 +1,250 @@
+/* feuille de style mobile first*/
+/*variables*/
+:root{
+    --white:#ffffff;
+    --black: #000000;
+    --purple:#9b0066;
+    --purple-bleu:#4d009a;
+    --turquoise: #2af1f8; 
+    --grey-blue: #8ca8a7;
+    --grey-font:#868485; 
+    --pink: #c2004e;
+    --greydark: #3e3e3e; 
+    --greyclear: #bcbcbc; 
+    --greenh: #349e9c; 
+}
+
+body{
+    font-family: "century gothic";
+    margin: 0;
+    font-size:1em;
+    overflow-x: hidden;
+}
+        /*header*/ 
+    header{
+        background-image: url(images/mobilehead.png);
+        background-size: 100%;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        text-align: center;
+        height: 100vh;
+    }
+            /*logo*/
+    header img{
+        width: 65%;
+        background-color: rgba(255, 255, 255, 0.900); 
+        padding: 20px 40px 100px 40px;
+        transform:skew(-20deg );
+        margin-left: 30px;
+    }
+    header .logo{
+        position:relative;
+        text-align: left;
+    }
+            /*navigation, boutons menu & setting*/ 
+    header nav{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20px;
+        left: 28px;
+    }
+    header .menu{
+        color: var(--grey-font);
+    }
+    header .setting{
+        color: var(--grey-font);
+    }
+            /*titre header*/ 
+    header h1{
+        color: var(--white);
+        font-size: 2.2em;
+        font-weight: lighter;
+        text-align: center;
+        margin-left: 115px;
+        margin-bottom: 70%
+    }
+            /* Bouton débuter l'expérience*/ 
+    header a{
+        text-decoration: none;
+        background-color:var(--black);
+        color: var(--white);
+        padding: 25px 70px;
+        box-shadow: 8px 8px 0px rgba(190, 190, 190, 0.623);
+        margin-bottom: 0;
+        font-size: 1.2em;
+    }
+
+        /*main*/
+        /*section 1*/
+main section h2{
+    color: var(--greenh);
+    text-align: left;
+    font-size: 2em;
+}
+main section hr{
+    width: 180px;
+    color:var(--grey-font);
+    border: solid;
+    border-color: var(--grey-font);
+}
+main section p{
+    color: var(--grey-font) ;
+    font-size: 1.40em;
+}
+    .bold{
+        font-weight: bold;
+        color: var(--grey-font);
+    }
+        /*section1*/
+    .section1{
+        margin-left: 20px;
+    }
+        .section1 svg{
+            opacity: 0;
+    }
+        .section1 h2{
+            font-size: 2.5em;
+            margin-right: 30%;
+            margin-bottom: 0;
+        }
+        .section1 hr{
+        margin-left:0;
+        }
+        /*section 2*/
+    .section2 p{
+        margin-left: 20px;
+        }
+    .section2 img{
+        width: 100%;
+        margin-bottom: -70px;
+    }
+    .section2 h2{
+        text-align:  center;
+        margin-bottom: 0;
+    }
+    /*section 3*/
+    .section3 h2{
+        text-align: right;
+        font-size: 2.5em;
+    }
+    .section3 .vaisseau{
+        margin-bottom: -35px;
+    }
+    .section3 hr{
+    margin-left: 53%;
+    }
+    .section3 p{
+        margin-left: 25px;
+        margin-bottom: 100px;
+    }
+    .ghost{
+        opacity: 0;
+    }
+        /*les 3 blocs*/
+    .section4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section4 img{
+        width: 30%;
+    }
+    .section4 p{
+        text-align: center;
+        font-weight: bold;
+        color: var(--white);
+        line-height: 5px;
+    }
+    .section4 .bloc{
+        font-size: 2em;
+    }
+        .bloc1{
+            background-color: rgba(82,191,184,255);
+            width: 100%;
+            height: 70%;
+            padding: 35px 0px 35px  0px;
+            font-size: 1em;
+        }
+        .bloc2{
+            background-color:rgba(77,0,154,255);
+            width: 100%;
+            height: 70%;
+            padding: 35px 0px 35px 0px;
+            font-size: 1em;
+        }
+        .bloc2 p{
+            line-height: 2rem;
+        }
+        .bloc3{
+            background-color:rgba(155,0,102,255);
+            width: 100%;
+            height: 70%;
+            padding: 35px 0px 35px 0px;
+            font-size: 1em;
+    }
+    /*section 5*/
+    .section5 img{
+        width: 415px;
+        height:504px;
+        object-fit: cover;
+    }
+
+    /*section 6*/ 
+    .section6 h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5em;
+    }
+    .section6 li{
+        font-size: 1.7em;
+        line-height: 50px;
+        color: var(--grey-font);
+    }
+            /*section7*/ 
+    .section7 img{
+        width: 100%;
+        margin-top: 50px;
+    }
+            /*section 8*/
+    .section8{
+        background: linear-gradient(to bottom right, var(--pink) , var(--turquoise));
+        height: 500px;
+        margin-top: 70px;
+        position: relative;
+    }
+                /*bouton "Vivre l'avanture"*/
+        .aventure{
+            text-decoration: none;
+            background-color: rgba(241, 238, 238, 0.123);
+            color: var(--white);
+            border-color: var(--white);
+            padding: 30px 50px 30px 50px;
+            font-size: 2em;
+            margin-left: 3%;
+            margin-top: -60%;
+            position: absolute;
+            bottom: 40%;
+    }
+footer{
+    background-color: var(--greydark);
+    padding-top:60px;
+    margin-top: -1px;
+    padding-bottom: 60px;
+}
+    footer p{
+        color: var(--greyclear);
+        margin-left: 7%;
+        font-size: 17px;
+    }
+    footer .adresse{
+        line-height: 1.8px;
+    }
+    footer .réseaux img{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+

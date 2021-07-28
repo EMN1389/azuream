@@ -1,11 +1,18 @@
 /*feuille de style CSS*/
 
-/*variable*/
+/*variables*/
 :root{
     --white:#ffffff;
-    --black:
+    --black: #000000;
+    --purple:#9b0066;
+    --purple-bleu:#4d009a;
+    --turquoise:#01beaa;
+    --grey-blue: #8ca8a7;
+    --grey-font:#868485; 
+    --pink: #c2004e; 
 
 }
+
 
 body{
     font-family: "century gothic";
@@ -15,7 +22,7 @@ body{
         /*début du HEADER*/
 
 header{
-    background-image: url("Image1.svg");
+    background-image: url("images/Image1.svg");
     background-color: var(--white);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,35 +46,36 @@ header img{
         /*bouton "débuter l'expérience"*/ 
 header a{
     text-decoration: none;
-    background-color: black ;
+    background-color:var(--black);
     color: var(--white);
     border: 0;
     padding: 35px 100px;
     box-shadow: 8px 8px 0px rgba(190, 190, 190, 0.623);
+
 }
         /*bouton setting*/
 .setting{
     width: 3%;
-    color:rgba(245, 245, 245, 0.76);
+    color: var(--grey-font);
     position: relative;
     top:-20em; left:52em;
 }
         /*bouton burger pour le menu*/
 .menu{
     width: 3%;
-    color:rgba(245, 245, 245, 0.76);
+    color:var(--grey-font);
     position: relative;
     top:-20em; left:42em;
 }
         /*fin du Header*/
 
-        /*barre*/
+        /*soulignement, barre*/
 hr{
     width:10%;
-    color:rgba(140,140,140,255);
+    color:var(--grey-font);
     height: 4px;
-    background-color: rgba(140,140,140,255);
-    border: rgba(140,140,140,255);
+    background-color: var(--grey-font);
+    border: var(--grey-font);
 }
         /*titres du main*/
 h2{
@@ -98,7 +106,7 @@ h2{
 }
         /*section3*/
 span{
-    color:grey;
+    color:var(--grey-font);
 }
 .section3 p{
     width: 90%;
@@ -114,7 +122,7 @@ span{
     justify-content: center;
     margin-top: 3%;
     text-align: center;
-    color:white;
+    color: var(--white);
     font-weight: bold;
 }
         /*les 3 blocs*/
@@ -183,7 +191,7 @@ span{
 }
         /*section 8*/
 .section8{
-    background: linear-gradient(to right, #c2004e, #1adde0);
+    background: linear-gradient(to right, var(--pink) , var(--turquoise));
     border-radius:0 65px 0 0 ;
     width: 1807px;
     height: 475px;
@@ -193,9 +201,9 @@ span{
 .aventure{
     text-decoration: none;
     background-color: rgba(241, 238, 238, 0.123);
-    color:white;
+    color: var(--white);
     border: 2px solid;
-    border-color:white;
+    border-color: var(--white);
     padding: 30px 70px 30px 70px;
     font-size: 200%;
     margin-left: 40%;
