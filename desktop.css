@@ -1,0 +1,221 @@
+/* feuille de style desktop - écran d'ordinateur 1200px*/
+/*variables*/
+:root{
+    --white:#ffffff;
+    --black: #000000;
+    --purple:#9b0066;
+    --purple-bleu:#4d009a;
+    --turquoise: #2af1f8; 
+    --grey-blue: #8ca8a7;
+    --grey-font:#868485; 
+    --pink: #c2004e;
+    --greydark: #3e3e3e; 
+    --greyclear: #bcbcbc; 
+    --greenh: #349e9c; 
+}
+@media (min-width:1200px){
+
+    header{
+        background-image: url("images/Image1.svg");
+        background-color: var(--white);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        height: 100vh;
+    }
+        /*logo*/
+    header .logo img{
+        padding-bottom: 30px;
+        padding-top: 50px;
+        width: 13%;
+        margin-top: 167px;
+        margin-left: 0;
+    }
+    header .logo{
+        position: relative;
+    }
+        /* boutons de navigation*/ 
+    header nav{
+        position: absolute;
+        left: 20%;
+        top: -45.5%;
+        display: flex;
+        justify-content: right;
+        gap: 65px;
+    }
+    header .menu{
+        width: 60px;
+    }
+    header .setting{
+        width: 60px;
+    }
+        /* titre du Header*/ 
+    header h1{
+        margin-left:20%;
+        margin-bottom: 490px;
+    }
+        /*Main*/
+    .ghost{
+        opacity: 100%;
+    }
+        .section1 h2{
+            text-align: center;
+            margin-top: 140px;
+            margin-right:0;
+        }
+        .section1 hr{
+            margin-left: 45%;
+        }
+        .section1 svg{
+            opacity: 100%;
+            margin-left: 42%;
+        }
+        .section1 p{
+            margin-left: 30px;
+            margin-right: 50px;
+    }
+        /*section 2*/ 
+    .section2{
+        margin-bottom: 125px;
+        }
+        .section2 .venokis{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        }
+        .section2 img{
+            width: 500px;
+        }
+        .section2 p{
+            margin-left: 50px;
+        }
+        
+    /*section3*/
+        .section3 h2{
+            text-align: center;
+        }
+        .section3 p{
+            margin-left: 50px;
+            margin-right: 50px;
+    }
+        .section3 hr{
+            margin-left: 43%;
+        }
+    /*section 4*/
+
+    .section4{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    .section4 p{
+        font-size: 2em;
+        margin-top: 0;
+    }
+        /*Les 3 blocs 30 jours, 5 mois et 20 personnes*/ 
+        .section4 .line{
+            display: block;
+            line-height: 140px;
+        }
+        .section4 .bloc1{
+            width:30%;
+            padding: 50px 0 50px 0;
+            margin-left: 50px;
+        }
+        .section4 .bloc2{
+            width: 30%;
+            padding: 45px 0 40px 0;
+        }
+        .section4 .bloc3{
+            width: 30%;
+            padding: 70px 0 70px 0;
+            margin-right: 50px;
+        }
+
+    /*section5*/
+    .section5 img{
+        width: 70%;
+        height: 80%;
+    }
+
+    /*section6*/
+    .section6{
+        margin-left: 140px;
+        width: 1450px;
+    }
+    .section6 .slash{
+        position: relative
+    }
+    .section6 hr{
+        width: 240px ;
+    }
+    .section6 .liste{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .section6 li{
+        font-size: 2.3em;
+        list-style: none;
+    }
+    .section6 .liste .actv2{
+        text-align: right;
+    }
+        /*section7*/ 
+    .section7{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .section7 .dame{
+        margin-right: 300px;
+    }
+    .section8{
+        width: 1730px;
+        height: 350px;
+        border-radius: 0 50px 0 0;
+        position: relative;
+        margin-bottom: 1px;
+    }
+    .section8 a{
+        margin-left: 750px;
+        border: solid;
+        border-width: 1px;
+    }
+    /*footer*/
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    footer p{
+        font-size: 1.2em;
+    }
+        footer .script{
+            display: flex;
+            width: 1500px;
+        }
+        footer .adresse, footer .plan, footer .mention{
+            width: 33.33%;
+        }
+            footer .adresse{
+                line-height: 20px;
+            }
+
+        footer .réseaux{
+            display: flex ;
+            align-items: flex-end;
+            width: 20%;
+        }
+        footer .réseaux img{
+            width:8%;
+        }
+        footer .réseaux img:nth-child(1){
+            width: 5%;
+    }
+}
