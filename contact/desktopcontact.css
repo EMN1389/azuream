@@ -1,0 +1,37 @@
+/*feuille de style desktop 1200px*/ 
+/*variables*/ 
+:root{
+    --greyfont:#3e3e3e;
+    --white: #ffffff;
+    --grey: #707070;
+    --greydark: #494949;
+    --greyshadow: #656565;
+}
+@media (min-width:1200px){
+    header{
+        position:relative;
+    }
+    header nav{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        right: 5%;
+    }
+    h1{
+        margin-top: 10%;
+        margin-left: 900px;
+    }
+    .nom, .prenom, .tel{
+        display: block;
+        margin: auto;
+        padding: 0;
+
+    }
+    .nom{
+        margin-top: 3%;
+    }
+    .btn{
+        margin-left: 59%;
+        margin-top: 4%;
+    }
+}

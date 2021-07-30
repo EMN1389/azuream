@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="266.725" height="49.404" viewBox="0 0 266.725 49.404">
+  <g id="Groupe_12" data-name="Groupe 12" transform="translate(-72.658 -330.241)">
+    <g id="Groupe_8" data-name="Groupe 8">
+      <path id="Tracé_15" data-name="Tracé 15" d="M96.286,330.241l23.691,48.519h-2.211l-8.971-18.068H83.461L74.616,378.76H72.658ZM96.1,334.6,84.282,358.86h23.755Z" fill="#cecece"/>
+      <path id="Tracé_16" data-name="Tracé 16" d="M147.269,376.928v1.832H123.451L144.3,333.21H123.451v-1.832h24.007l-20.912,45.55Z" fill="#cecece"/>
+      <path id="Tracé_17" data-name="Tracé 17" d="M168.052,379.645h-.632A13.3,13.3,0,0,1,157.6,375.6a13.843,13.843,0,0,1-4.012-10.172V331.378h2.085v33.989a12.2,12.2,0,0,0,3.474,8.908,12.2,12.2,0,0,0,17.153.031,12.226,12.226,0,0,0,3.443-8.939V331.378h2.085V365.3a14.035,14.035,0,0,1-4.012,10.266A13.183,13.183,0,0,1,168.052,379.645Z" fill="#cecece"/>
+      <path id="Tracé_18" data-name="Tracé 18" d="M191.3,331.378h2.717a14.985,14.985,0,0,1,10.771,4.517,14.343,14.343,0,0,1,4.644,10.614,14.108,14.108,0,0,1-4.738,10.582q-4.738,4.486-10.172,4.485h-.442l16.3,17.184h-2.716l-14.341-15.036V378.76H191.3Zm2.022,28.366h1.137a12.4,12.4,0,0,0,9.034-3.917,13.367,13.367,0,0,0-9.35-22.617h-.821Z" fill="#cecece"/>
+      <path id="Tracé_19" data-name="Tracé 19" d="M339.383,331.378V378.76H337.3V333.842l-22.363,45.8-22.239-45.8V378.76h-1.9V331.378h3.032L315.123,375.1l21.354-43.718Z" fill="#cecece"/>
+    </g>
+    <g id="Groupe_11" data-name="Groupe 11">
+      <g id="Groupe_9" data-name="Groupe 9">
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="29.667" height="2" transform="translate(217.597 355.856)" fill="#cecece"/>
+        <path id="Tracé_20" data-name="Tracé 20" d="M247.264,356.856" fill="#cecece" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_21" data-name="Tracé 21" d="M247.264,332.431" fill="#cecece" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_22" data-name="Tracé 22" d="M247.264,377.76" fill="#cecece" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_23" data-name="Tracé 23" d="M247.264,378.76H216.6v-47.33h30.667v2H218.6v43.33h28.667Z" fill="#cecece"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="2" height="15.998" transform="translate(246.055 341.818)" fill="#cecece"/>
+      </g>
+      <g id="Groupe_10" data-name="Groupe 10">
+        <rect id="Rectangle_8" data-name="Rectangle 8" width="29.667" height="2" transform="translate(253.43 352.333)" fill="#cecece"/>
+        <path id="Tracé_24" data-name="Tracé 24" d="M253.43,353.333" fill="#cecece" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_25" data-name="Tracé 25" d="M253.43,377.76" fill="#cecece" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_26" data-name="Tracé 26" d="M253.43,332.431" fill="#cecece" stroke="#1a1818" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Tracé_27" data-name="Tracé 27" d="M284.1,378.76H253.43v-2H282.1v-43.33H253.43v-2H284.1Z" fill="#cecece"/>
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="2" height="15.959" transform="translate(252.639 352.414)" fill="#cecece"/>
+      </g>
+    </g>
+  </g>
+</svg>

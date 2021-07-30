@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="stylesheet" href="desktopcontact.css">
+    <title>Contact Azuream</title>
+</head>
+<body>
+    <header>
+       <!--le logo--> 
+    <img src="logo.svg" class="logo" alt="logo d'Azuream">
+       <!--les boutons de navigation--> 
+        <nav>
+            <img src="burger.svg" alt="bouton menu burger">
+            <img src="setting.svg" alt="bouton setting">
+        </nav>
+    </header>
+        <main>
+        <!--titre-->
+        <section>
+            <h1>\ Prendre contact avec un agent.</h1>
+        </section>
+        <!--formulaire-->
+        <form method="POST">
+            <p>
+                <input class="nom" type="text" name="NOM" placeholder="NOM" minlenght="1" maxlength="25">
+            </p>
+
+            <p>
+                <input class="prenom" type="text" name="PRENOM" placeholder="PRENOM" minlength="1" maxlength="25">
+            </p>
+            <p>
+            <input class="tel" type="tel" name="TELEPHONE" placeholder="TELEPHONE">
+            </p>
+           <input type="submit" class="btn" value="ENVOYER">        
+        </form>
+        </main>
+    </header>
+</body>
+</html>
