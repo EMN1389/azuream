@@ -25,11 +25,10 @@
     }
         /*logo*/
     header .logo img{
-        padding-bottom: 30px;
-        padding-top: 50px;
+        padding:25px 75px;
         width: 13%;
         margin-top: 167px;
-        margin-left: 0;
+        margin-left: -35px;
     }
     header .logo{
         position: relative;
@@ -37,12 +36,16 @@
         /* boutons de navigation*/ 
     header nav{
         position: absolute;
-        left: 20%;
+        left: 26%;
         top: -45.5%;
         display: flex;
         justify-content: right;
         gap: 65px;
     }
+        /* nav svg{
+        width: 5%;
+        color: whitesmoke;
+    } */
     header .menu{
         width: 60px;
     }
@@ -52,7 +55,7 @@
         /* titre du Header*/ 
     header h1{
         margin-left:20%;
-        margin-bottom: 490px;
+        margin-bottom: 15%;
     }
         /*Main*/
     .ghost{
@@ -86,10 +89,6 @@
         .section2 img{
             width: 500px;
         }
-        .section2 p{
-            margin-left: 50px;
-        }
-        
     /*section3*/
         .section3 h2{
             text-align: center;
@@ -126,25 +125,21 @@
         }
         .section4 .bloc2{
             width: 30%;
-            padding: 45px 0 40px 0;
+            padding: 25px 0 25px 0;
         }
         .section4 .bloc3{
             width: 30%;
-            padding: 70px 0 70px 0;
+            padding: 65px 0 65px 0;
             margin-right: 50px;
         }
 
-    /*section5*/
+    /*section5 image du robot assistant*/
     .section5 img{
         width: 70%;
         height: 80%;
     }
 
-    /*section6*/
-    .section6{
-        margin-left: 140px;
-        width: 1450px;
-    }
+    /*section6 les activités*/
     .section6 .slash{
         position: relative
     }
@@ -164,7 +159,7 @@
     .section6 .liste .actv2{
         text-align: right;
     }
-        /*section7*/ 
+        /*section7 2 photos d'activités*/ 
     .section7{
         display: flex;
         justify-content: space-between;
@@ -173,15 +168,16 @@
     .section7 .dame{
         margin-right: 300px;
     }
+    /*section8 le fond degradé + le bouton vivre l'aventure*/
     .section8{
-        width: 1730px;
+        width: 1200px;
         height: 350px;
         border-radius: 0 50px 0 0;
         position: relative;
         margin-bottom: 1px;
     }
     .section8 a{
-        margin-left: 750px;
+        margin-left: 450px;
         border: solid;
         border-width: 1px;
     }
@@ -192,6 +188,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         padding-bottom: 50px;
+        padding-top: 5px;
     }
     footer p{
         font-size: 1.2em;
@@ -210,7 +207,7 @@
         footer .réseaux{
             display: flex ;
             align-items: flex-end;
-            width: 20%;
+            width: 35%;
         }
         footer .réseaux img{
             width:8%;

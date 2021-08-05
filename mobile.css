@@ -33,9 +33,9 @@ body{
     header img{
         width: 65%;
         background-color: rgba(255, 255, 255, 0.900); 
-        padding: 20px 40px 100px 40px;
-        transform:skew(-20deg );
-        margin-left: 30px;
+        padding: 25px 65px 100px 90px;
+        margin-left: 5px;
+        clip-path: polygon(23% 0%, 96% 0%, 79% 100%, 3% 100%);
     }
     header .logo{
         position:relative;
@@ -43,12 +43,12 @@ body{
     }
             /*navigation, boutons menu & setting*/ 
     header nav{
-        width: 75%;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         position: absolute;
         bottom: 20px;
-        left: 28px;
+        left: 40px;
     }
     header .menu{
         color: var(--grey-font);
